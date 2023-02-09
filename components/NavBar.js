@@ -1,12 +1,15 @@
 // import Pencil from './pencil.svg'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
+import localFont from '@next/font/local'
+
+const mainframeLight = localFont({ src: '../assets/fonts/Mainframe-Light.woff2' })
+
 
 export default function NavBar() {
     return (
         <>
             <div className={styles.nav}>
-
                 <div className={styles.navItem}>
 
                     <Image
@@ -17,8 +20,9 @@ export default function NavBar() {
                         height={20}
                     // priority
                     />
-                    <p className={styles.navItemText}>audio</p>
+                    <p className={`${mainframeLight.className} ${styles.navItemText}`}>audio</p>
                 </div>
+                
 
                 <div className={styles.navItem}>
                     <Image
@@ -29,7 +33,7 @@ export default function NavBar() {
                         height={20}
                         priority
                     />
-                    <p className={styles.navItemText}>plots</p>
+                    <p className={`${mainframeLight.className} ${styles.navItemText}`}>plots</p>
                 </div>
 
                 <div className={styles.navItem}>
@@ -42,7 +46,7 @@ export default function NavBar() {
                         height={20}
                     // priority
                     />
-                    <p className={styles.navItemText}>video</p>
+                    <p className={`${mainframeLight.className} ${styles.navItemText}`}>video</p>
                 </div>
 
 
