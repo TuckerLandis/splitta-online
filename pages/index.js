@@ -12,7 +12,7 @@ import NavBar from '@/components/NavBar'
 // Font files can be colocated inside of `pages`
 const mainframeLight = localFont({ src: '../assets/fonts/Mainframe-Light.woff2' })
 const mainframeRegular = localFont({ src: '../assets/fonts/Mainframe-Regular.woff2' })
-const mainframeBold = localFont({ src: '../assets/fonts/Mainframe-Regular.woff2' })
+const mainframeBold = localFont({ src: '../assets/fonts/Mainframe-Bold.woff2' })
 
 
 
@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>splitta.online</title>
+        <title className={styles.titleTxt}>splitta.online</title>
         <meta name="description" content="A place to experience buying things on a website, and some other cool stuff" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -30,7 +30,10 @@ export default function Home() {
           splitta.online
         </h1>
         <NavBar />
-        <div className={styles.description}>
+        <div className={styles.hero}>
+          <h3 className={styles.centered}>Hello! Welcome to the website</h3>
+          <br></br>
+          <p className={styles.centered}>This is definitely a website and such, i'll probably add some content sometime</p>
 
 
         </div>

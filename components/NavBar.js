@@ -13,8 +13,8 @@ export default function NavBar() {
                         src="/musicnoteBit.svg"
                         alt="PenPlotter"
                         // className={styles.vercelLogo}
-                        width={30}
-                        height={30}
+                        width={20}
+                        height={20}
                     // priority
                     />
                     <p className={styles.navItemText}>music</p>
@@ -25,8 +25,8 @@ export default function NavBar() {
                         src="/pencilBit.svg"
                         alt="PenPlotter"
                         // className={styles.vercelLogo}
-                        width={30}
-                        height={30}
+                        width={20}
+                        height={20}
                         priority
                     />
                     <p className={styles.navItemText}>plots</p>
@@ -38,8 +38,8 @@ export default function NavBar() {
                         src="/monitorBit.svg"
                         alt="PenPlotter"
                         // className={styles.vercelLogo}
-                        width={30}
-                        height={30}
+                        width={20}
+                        height={20}
                     // priority
                     />
                     <p className={styles.navItemText}>video</p>
@@ -53,8 +53,8 @@ export default function NavBar() {
                         src="/lightbulbBit.svg"
                         alt="PenPlotter"
                         // className={styles.vercelLogo}
-                        width={30}
-                        height={30}
+                        width={20}
+                        height={20}
                     // priority
                     />
                     <p className={styles.navItemText}>col</p>

@@ -17,10 +17,28 @@
   z-index: 2;
   /* font-family: var(--font-mono); */
 }
-
+.titleTxt{
+  font-size: 28pt;
+}
+.centered{
+  text-align: center;
+}
+.hero{
+  padding: 1em;
+  margin-top: 1em;
+}
+.hero p{
+  /* margin: 0; */
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  /* max-width: 30ch; */
+}
 .nav{
   display: flex;
   justify-content: space-around;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .navItem{
   display: flex;
@@ -89,6 +107,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 28pt;
   /* position: relative; */
   /* padding: 4rem 0; */
 }
