@@ -17,7 +17,7 @@ export default function NavBar() {
                         height={20}
                     // priority
                     />
-                    <p className={styles.navItemText}>music</p>
+                    <p className={styles.navItemText}>audio</p>
                 </div>
 
                 <div className={styles.navItem}>
@@ -62,6 +62,8 @@ export default function NavBar() {
 
 
             </div>
+            <div className="animated-line"></div>
+
         </>
     )
 }
