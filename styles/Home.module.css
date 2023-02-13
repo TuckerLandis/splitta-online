@@ -348,6 +348,8 @@
 	/* width: 20em; */
 	/* background-color: #292929; */
 	transition: all .3s ease-in-out;
+  border: 1px solid white;
+  border-radius: 1em;
 }
 .card:hover {
   box-shadow: 0 10px 20px 10px rgba(black, .2);

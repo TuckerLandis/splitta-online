@@ -5,7 +5,7 @@ export default function Card(props) {
     return (
         <>
             <div className="container">
-                <article className={styles.card}>
+                <div className={styles.card}>
                     <a href="#" className={styles.cardLink}>
 
                         {/* <!-- Icon --> */}
@@ -40,7 +40,7 @@ export default function Card(props) {
                         </div>
 
                     </a>
-                </article>
+                </div>
             </div>
         </>
     )
