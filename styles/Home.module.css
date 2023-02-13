@@ -312,3 +312,109 @@
     transform: rotate(0deg);
   }
 }
+
+.imageContainer {
+
+  width: 100%;
+
+
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.imageContainer > div {
+  position: unset !important;
+}
+
+
+/* Card styles */
+/* Card.module.css */
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	position: relative;
+	/* width: 20em; */
+	/* background-color: #292929; */
+	transition: all .3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 10px 20px 10px rgba(black, .2);
+}
+.cardLink {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+}
+
+.cardIcon {
+	position: absolute;
+	width: 4em;
+	height: 4em;
+	transition: all .3s ease-in-out;
+}
+
+.cardIcon:hover {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.cardMedia {
+	padding: 0.5em 0;
+}
+
+.cardHeader {
+	position: relative;
+}
+
+.cardHeaderTitle {
+	margin: 0 0 .25em;
+	color: white;
+}
+
+.cardHeaderMeta {
+	margin: 0;
+	color: #999;
+}
+
+.cardHeaderIcon {
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -1em;
+	transform: translateX(-20%);
+	width: 2em;
+	height: 2em;
+	transition: all .3s ease-in-out;
+}
+
+.cardHeaderIcon:hover {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0) translateY(50%);
+  }
+	90% {
+		transform: scale(1.05);
+	}
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
